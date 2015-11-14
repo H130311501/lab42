@@ -2,7 +2,7 @@ from django.contrib import admin
 from BookDB.models import Author,Book
 class AuthorAdmin(admin.ModelAdmin):
     list_display=('AuthorID','Name','Age','Country')
-    
+# hdsshcbjhsgds 
 class BookAdmin(admin.ModelAdmin):
      list_display=('ISBN','Title','AuthorID','Authorname','Publisher',
      'Publicationdate','Price')

@@ -6,6 +6,7 @@ from django.template import Context
 from django.http import HttpResponseRedirect
 # Create your views here.
 #show, book_details, add, renew,seachAuthor
+#init
 def show(request):
     if "seach_author" in request.GET:
         books=seach(request)

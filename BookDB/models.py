@@ -6,7 +6,7 @@ class Author(models.Model):
     Country=models.CharField(max_length=50)
     def __unicode__(self):
         return self.AuthorID
-        
+#cmling        
 class Book(models.Model):
     ISBN=models.CharField(max_length=20)
     Title=models.CharField(max_length=100)
